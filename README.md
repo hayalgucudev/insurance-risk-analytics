@@ -33,28 +33,28 @@ This project aims to:
 
 ##  Project Structure
 
-```text
+```
 insurance-risk-analytics/
 │
-├── data/                          # Raw and processed datasets (DVC tracked)
+├── data/                        
 │
 ├── notebooks/
-│   ├── 01_eda.ipynb               # Data exploration and visualization
-│   ├── 02_hypothesis_testing.ipynb # Statistical testing of risk drivers
-│   ├── 03_modeling.ipynb          # Machine learning models and evaluation
+│   ├── 01_eda.ipynb               
+│   ├── 02_hypothesis_testing.ipynb 
+│   ├── 03_modeling.ipynb          
 │
 ├── src/
 │   ├── modeling/
-│   │   ├── data_prep.py          # Data loading and preprocessing
-│   │   ├── models.py             # Model training functions
-│   │   ├── evaluation.py         # Model evaluation metrics
+│   │   ├── data_prep.py          
+│   │   ├── models.py             
+│   │   ├── evaluation.py        
 │   │
 │   ├── hypothesis/
-│       ├── metrics.py            # KPI definitions (frequency, severity, margin)
-│       ├── tests.py              # Statistical tests (t-test, chi-square)
-│       ├── segmentation.py       # Data grouping logic
+│       ├── metrics.py           
+│       ├── tests.py              
+│       ├── segmentation.py       
 │
-├── .dvc/                         # DVC configuration
+├── .dvc/                         
 ├── requirements.txt
 ├── .gitignore
 └── README.md
